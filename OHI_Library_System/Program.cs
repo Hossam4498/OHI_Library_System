@@ -16,7 +16,7 @@ namespace OHI_Library_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Views.Form_Main());
+            Application.Run(new Views.Forms.Main_Form());
         }
     }
 }
