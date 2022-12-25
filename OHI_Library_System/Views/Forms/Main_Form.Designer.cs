@@ -475,16 +475,24 @@
             // 
             // ribbonPage1
             // 
-            this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage1.Appearance.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage1.Appearance.Options.UseFont = true;
+            this.ribbonPage1.Appearance.Options.UseForeColor = true;
+            this.ribbonPage1.Appearance.Options.UseTextOptions = true;
+            this.ribbonPage1.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage1.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage1.AppearanceHovered.ForeColor = System.Drawing.Color.Black;
+            this.ribbonPage1.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
             this.ribbonPage1.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage1.AppearanceHovered.Options.UseForeColor = true;
-            this.ribbonPage1.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage1.AppearanceHovered.Options.UseTextOptions = true;
+            this.ribbonPage1.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.ribbonPage1.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ribbonPage1.AppearanceSelected.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage1.AppearanceSelected.Options.UseFont = true;
             this.ribbonPage1.AppearanceSelected.Options.UseForeColor = true;
+            this.ribbonPage1.AppearanceSelected.Options.UseTextOptions = true;
+            this.ribbonPage1.AppearanceSelected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
             this.ribbonPageGroup4,
@@ -533,14 +541,24 @@
             // 
             // ribbonPage2
             // 
-            this.ribbonPage2.Appearance.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage2.Appearance.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage2.Appearance.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage2.Appearance.Options.UseFont = true;
+            this.ribbonPage2.Appearance.Options.UseForeColor = true;
+            this.ribbonPage2.Appearance.Options.UseTextOptions = true;
+            this.ribbonPage2.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage2.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage2.AppearanceHovered.ForeColor = System.Drawing.Color.Black;
+            this.ribbonPage2.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
             this.ribbonPage2.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage2.AppearanceHovered.Options.UseForeColor = true;
-            this.ribbonPage2.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage2.AppearanceHovered.Options.UseTextOptions = true;
+            this.ribbonPage2.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.ribbonPage2.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage2.AppearanceSelected.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage2.AppearanceSelected.Options.UseFont = true;
+            this.ribbonPage2.AppearanceSelected.Options.UseForeColor = true;
+            this.ribbonPage2.AppearanceSelected.Options.UseTextOptions = true;
+            this.ribbonPage2.AppearanceSelected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup3,
             this.ribbonPageGroup13});
@@ -561,16 +579,24 @@
             // 
             // ribbonPage3
             // 
-            this.ribbonPage3.Appearance.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage3.Appearance.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage3.Appearance.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage3.Appearance.Options.UseFont = true;
+            this.ribbonPage3.Appearance.Options.UseForeColor = true;
+            this.ribbonPage3.Appearance.Options.UseTextOptions = true;
+            this.ribbonPage3.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage3.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage3.AppearanceHovered.ForeColor = System.Drawing.Color.Black;
+            this.ribbonPage3.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
             this.ribbonPage3.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage3.AppearanceHovered.Options.UseForeColor = true;
-            this.ribbonPage3.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage3.AppearanceHovered.Options.UseTextOptions = true;
+            this.ribbonPage3.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.ribbonPage3.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ribbonPage3.AppearanceSelected.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage3.AppearanceSelected.Options.UseFont = true;
             this.ribbonPage3.AppearanceSelected.Options.UseForeColor = true;
+            this.ribbonPage3.AppearanceSelected.Options.UseTextOptions = true;
+            this.ribbonPage3.AppearanceSelected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup14,
             this.ribbonPageGroup15,
@@ -605,14 +631,24 @@
             // 
             // ribbonPage4
             // 
-            this.ribbonPage4.Appearance.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage4.Appearance.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage4.Appearance.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage4.Appearance.Options.UseFont = true;
+            this.ribbonPage4.Appearance.Options.UseForeColor = true;
+            this.ribbonPage4.Appearance.Options.UseTextOptions = true;
+            this.ribbonPage4.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage4.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage4.AppearanceHovered.ForeColor = System.Drawing.Color.Black;
+            this.ribbonPage4.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
             this.ribbonPage4.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage4.AppearanceHovered.Options.UseForeColor = true;
-            this.ribbonPage4.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage4.AppearanceHovered.Options.UseTextOptions = true;
+            this.ribbonPage4.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.ribbonPage4.AppearanceSelected.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage4.AppearanceSelected.ForeColor = System.Drawing.Color.Black;
             this.ribbonPage4.AppearanceSelected.Options.UseFont = true;
+            this.ribbonPage4.AppearanceSelected.Options.UseForeColor = true;
+            this.ribbonPage4.AppearanceSelected.Options.UseTextOptions = true;
+            this.ribbonPage4.AppearanceSelected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup16,
             this.ribbonPageGroup17});

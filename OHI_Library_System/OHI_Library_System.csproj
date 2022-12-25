@@ -56,6 +56,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic\Presenter\BooksPresenter.cs" />
+    <Compile Include="Logic\Services\BooksService.cs" />
+    <Compile Include="Logic\Services\DBHelper.cs" />
+    <Compile Include="Models\BooksModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Forms\Books_Form.cs">
@@ -100,6 +104,7 @@
     <Compile Include="Views\Forms\Tools_Form.Designer.cs">
       <DependentUpon>Tools_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Interface\IBooks.cs" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,9 +149,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logic\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

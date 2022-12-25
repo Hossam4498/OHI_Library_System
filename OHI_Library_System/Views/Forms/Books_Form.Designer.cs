@@ -454,8 +454,7 @@
             // Books_Form
             // 
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1278, 673);
             this.Controls.Add(this.groupControl4);
             this.Controls.Add(this.groupControl3);
