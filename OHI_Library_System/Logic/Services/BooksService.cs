@@ -28,7 +28,7 @@ namespace OHI_Library_System.Logic.Services
 
         public static bool bookDelete(int id)
         {
-            return DBHelper.executeData("booksDelete", () => bookParameterDelete(id, DBHelper.command));
+            return DBHelper.executeData("bookDelete", () => bookParameterDelete(id, DBHelper.command));
         }
 
         // This method to delete parameter into stored procedure
@@ -40,7 +40,7 @@ namespace OHI_Library_System.Logic.Services
 
         public static bool bookUpdate(int id, string category, string name, string author, string copyright)
         {
-            return DBHelper.executeData("bookInsert", () => bookParameterUpdate(id, category, name, author, copyright, DBHelper.command));
+            return DBHelper.executeData("bookUpdate", () => bookParameterUpdate(id, category, name, author, copyright, DBHelper.command));
         }
 
         // This method to Update parameter into stored procedure
@@ -52,8 +52,20 @@ namespace OHI_Library_System.Logic.Services
             command.Parameters.Add("@Author", SqlDbType.NVarChar).Value = author;
             command.Parameters.Add("@Copyright", SqlDbType.NVarChar).Value = copyright;
         }
+
+
+        public static bool bookDeleteAll()
+        {
+            return DBHelper.executeData("bookDeleteAll", () => bookParameterDeleteAll());
+        }
+
+        // This method to delete all parameter into stored procedure
+        private static void bookParameterDeleteAll()
+        {
+            
+        }
     }
 
 
-    
+
 }

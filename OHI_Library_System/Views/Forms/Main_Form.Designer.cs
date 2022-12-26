@@ -101,7 +101,7 @@
             this.ribbonPage2,
             this.ribbonPage3,
             this.ribbonPage4});
-            this.ribbon.Size = new System.Drawing.Size(1729, 241);
+            this.ribbon.Size = new System.Drawing.Size(1729, 244);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // barButtonItem1
@@ -111,7 +111,7 @@
             this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
             this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
             this.barButtonItem1.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem1.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem1.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem1.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem1.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem1.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -135,7 +135,7 @@
             this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
             this.barButtonItem2.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
             this.barButtonItem2.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem2.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem2.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem2.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem2.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem2.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -159,7 +159,7 @@
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
             this.barButtonItem3.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem3.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem3.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem3.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem3.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem3.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -183,7 +183,7 @@
             this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
             this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
             this.barButtonItem4.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem4.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem4.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem4.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem4.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem4.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -206,7 +206,7 @@
             this.barButtonItem5.Id = 6;
             this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
             this.barButtonItem5.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem5.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem5.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem5.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem5.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -230,7 +230,7 @@
             this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
             this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
             this.barButtonItem6.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem6.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem6.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem6.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem6.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem6.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -296,7 +296,7 @@
             this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
             this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
             this.barButtonItem9.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem9.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem9.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem9.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem9.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -319,7 +319,7 @@
             this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
             this.barButtonItem10.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem10.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem10.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem10.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem10.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem10.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -342,7 +342,7 @@
             this.barButtonItem11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.Image")));
             this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
             this.barButtonItem11.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem11.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem11.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem11.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem11.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem11.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -365,7 +365,7 @@
             this.barButtonItem12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.Image")));
             this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
             this.barButtonItem12.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem12.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem12.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem12.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem12.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem12.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -388,7 +388,7 @@
             this.barButtonItem13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.Image")));
             this.barButtonItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.LargeImage")));
             this.barButtonItem13.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem13.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem13.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem13.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem13.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem13.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -411,7 +411,7 @@
             this.barButtonItem14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.Image")));
             this.barButtonItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.LargeImage")));
             this.barButtonItem14.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem14.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem14.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem14.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem14.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem14.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -434,7 +434,7 @@
             this.barButtonItem15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.Image")));
             this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
             this.barButtonItem15.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem15.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem15.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem15.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem15.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem15.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -457,7 +457,7 @@
             this.barButtonItem16.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.Image")));
             this.barButtonItem16.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.LargeImage")));
             this.barButtonItem16.ItemAppearance.Hovered.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem16.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Maroon;
+            this.barButtonItem16.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Transparent;
             this.barButtonItem16.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem16.ItemAppearance.Hovered.Options.UseForeColor = true;
             this.barButtonItem16.ItemAppearance.Hovered.Options.UseTextOptions = true;
@@ -482,7 +482,7 @@
             this.ribbonPage1.Appearance.Options.UseTextOptions = true;
             this.ribbonPage1.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage1.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage1.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
+            this.ribbonPage1.AppearanceHovered.ForeColor = System.Drawing.Color.White;
             this.ribbonPage1.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage1.AppearanceHovered.Options.UseForeColor = true;
             this.ribbonPage1.AppearanceHovered.Options.UseTextOptions = true;
@@ -548,7 +548,7 @@
             this.ribbonPage2.Appearance.Options.UseTextOptions = true;
             this.ribbonPage2.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage2.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage2.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
+            this.ribbonPage2.AppearanceHovered.ForeColor = System.Drawing.Color.White;
             this.ribbonPage2.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage2.AppearanceHovered.Options.UseForeColor = true;
             this.ribbonPage2.AppearanceHovered.Options.UseTextOptions = true;
@@ -586,7 +586,7 @@
             this.ribbonPage3.Appearance.Options.UseTextOptions = true;
             this.ribbonPage3.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage3.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage3.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
+            this.ribbonPage3.AppearanceHovered.ForeColor = System.Drawing.Color.White;
             this.ribbonPage3.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage3.AppearanceHovered.Options.UseForeColor = true;
             this.ribbonPage3.AppearanceHovered.Options.UseTextOptions = true;
@@ -638,7 +638,7 @@
             this.ribbonPage4.Appearance.Options.UseTextOptions = true;
             this.ribbonPage4.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.ribbonPage4.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonPage4.AppearanceHovered.ForeColor = System.Drawing.Color.IndianRed;
+            this.ribbonPage4.AppearanceHovered.ForeColor = System.Drawing.Color.White;
             this.ribbonPage4.AppearanceHovered.Options.UseFont = true;
             this.ribbonPage4.AppearanceHovered.Options.UseForeColor = true;
             this.ribbonPage4.AppearanceHovered.Options.UseTextOptions = true;

@@ -44,7 +44,7 @@ namespace OHI_Library_System.Views.Forms
 
         private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Previous_Exams_Form form = new Previous_Exams_Form();
+            Exams_Form form = new Exams_Form();
             form.ShowDialog();
         }
 

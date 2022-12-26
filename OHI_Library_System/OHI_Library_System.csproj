@@ -57,9 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logic\Presenter\BooksPresenter.cs" />
+    <Compile Include="Logic\Presenter\DoctorsPresenter.cs" />
+    <Compile Include="Logic\Presenter\ExamsPresenter.cs" />
+    <Compile Include="Logic\Presenter\GraduationProjectsPresenter.cs" />
+    <Compile Include="Logic\Presenter\StudentsPresenter.cs" />
+    <Compile Include="Logic\Presenter\ToolsPresenter.cs" />
     <Compile Include="Logic\Services\BooksService.cs" />
     <Compile Include="Logic\Services\DBHelper.cs" />
+    <Compile Include="Logic\Services\DoctorsService.cs" />
+    <Compile Include="Logic\Services\ExamsService.cs" />
+    <Compile Include="Logic\Services\GraduationProjectsService.cs" />
+    <Compile Include="Logic\Services\StudentsService.cs" />
+    <Compile Include="Logic\Services\ToolsService.cs" />
     <Compile Include="Models\BooksModel.cs" />
+    <Compile Include="Models\DoctorsModel.cs" />
+    <Compile Include="Models\ExamsModel.cs" />
+    <Compile Include="Models\GraduationProjectsModel.cs" />
+    <Compile Include="Models\StudentsModel.cs" />
+    <Compile Include="Models\ToolsModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Forms\Books_Form.cs">
@@ -86,11 +101,11 @@
     <Compile Include="Views\Forms\Main_Form.Designer.cs">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Forms\Previous_Exams_Form.cs">
+    <Compile Include="Views\Forms\Exams_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Forms\Previous_Exams_Form.Designer.cs">
-      <DependentUpon>Previous_Exams_Form.cs</DependentUpon>
+    <Compile Include="Views\Forms\Exams_Form.Designer.cs">
+      <DependentUpon>Exams_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Forms\Students_Form.cs">
       <SubType>Form</SubType>
@@ -105,6 +120,11 @@
       <DependentUpon>Tools_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Interface\IBooks.cs" />
+    <Compile Include="Views\Interface\IDoctors.cs" />
+    <Compile Include="Views\Interface\IExams.cs" />
+    <Compile Include="Views\Interface\IGraduationProjects.cs" />
+    <Compile Include="Views\Interface\IStudents.cs" />
+    <Compile Include="Views\Interface\ITools.cs" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,8 +147,8 @@
     <EmbeddedResource Include="Views\Forms\Main_Form.resx">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Forms\Previous_Exams_Form.resx">
-      <DependentUpon>Previous_Exams_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\Forms\Exams_Form.resx">
+      <DependentUpon>Exams_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Students_Form.resx">
       <DependentUpon>Students_Form.cs</DependentUpon>

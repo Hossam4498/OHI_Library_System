@@ -36,7 +36,7 @@
             this.btnDeleteAll = new DevExpress.XtraEditors.SimpleButton();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
             this.btnNew = new DevExpress.XtraEditors.SimpleButton();
-            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.btnLast = new DevExpress.XtraEditors.SimpleButton();
             this.btnPrevious = new DevExpress.XtraEditors.SimpleButton();
@@ -96,7 +96,7 @@
             this.groupControl3.Controls.Add(this.btnDeleteAll);
             this.groupControl3.Controls.Add(this.btnAdd);
             this.groupControl3.Controls.Add(this.btnNew);
-            this.groupControl3.Controls.Add(this.btnSave);
+            this.groupControl3.Controls.Add(this.btnUpdate);
             this.groupControl3.Location = new System.Drawing.Point(24, 554);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(1230, 100);
@@ -122,9 +122,10 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.btnDelete.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnDelete.Size = new System.Drawing.Size(101, 49);
+            this.btnDelete.Size = new System.Drawing.Size(150, 49);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnDeleteAll
             // 
@@ -145,9 +146,10 @@
             this.btnDeleteAll.Name = "btnDeleteAll";
             this.btnDeleteAll.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.btnDeleteAll.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnDeleteAll.Size = new System.Drawing.Size(130, 49);
+            this.btnDeleteAll.Size = new System.Drawing.Size(150, 49);
             this.btnDeleteAll.TabIndex = 2;
             this.btnDeleteAll.Text = "Delete All";
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // btnAdd
             // 
@@ -168,9 +170,10 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.btnAdd.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnAdd.Size = new System.Drawing.Size(82, 51);
+            this.btnAdd.Size = new System.Drawing.Size(150, 51);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnNew
             // 
@@ -191,32 +194,34 @@
             this.btnNew.Name = "btnNew";
             this.btnNew.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.btnNew.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnNew.Size = new System.Drawing.Size(91, 51);
+            this.btnNew.Size = new System.Drawing.Size(150, 51);
             this.btnNew.TabIndex = 2;
             this.btnNew.Text = "New";
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
-            // btnSave
+            // btnUpdate
             // 
-            this.btnSave.Appearance.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Appearance.Options.UseFont = true;
-            this.btnSave.Appearance.Options.UseTextOptions = true;
-            this.btnSave.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            this.btnSave.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.AppearanceHovered.Options.UseFont = true;
-            this.btnSave.AppearanceHovered.Options.UseTextOptions = true;
-            this.btnSave.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            this.btnSave.AppearancePressed.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.AppearancePressed.Options.UseFont = true;
-            this.btnSave.AppearancePressed.Options.UseTextOptions = true;
-            this.btnSave.AppearancePressed.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
-            this.btnSave.Location = new System.Drawing.Point(542, 38);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
-            this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSave.Size = new System.Drawing.Size(91, 51);
-            this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Save";
+            this.btnUpdate.Appearance.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Appearance.Options.UseFont = true;
+            this.btnUpdate.Appearance.Options.UseTextOptions = true;
+            this.btnUpdate.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.btnUpdate.AppearanceHovered.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.AppearanceHovered.Options.UseFont = true;
+            this.btnUpdate.AppearanceHovered.Options.UseTextOptions = true;
+            this.btnUpdate.AppearanceHovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.btnUpdate.AppearancePressed.Font = new System.Drawing.Font("Georgia", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.AppearancePressed.Options.UseFont = true;
+            this.btnUpdate.AppearancePressed.Options.UseTextOptions = true;
+            this.btnUpdate.AppearancePressed.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.btnUpdate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.ImageOptions.Image")));
+            this.btnUpdate.Location = new System.Drawing.Point(542, 38);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
+            this.btnUpdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnUpdate.Size = new System.Drawing.Size(150, 51);
+            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // groupControl2
             // 
@@ -482,7 +487,7 @@
         private DevExpress.XtraEditors.SimpleButton btnDeleteAll;
         private DevExpress.XtraEditors.SimpleButton btnAdd;
         private DevExpress.XtraEditors.SimpleButton btnNew;
-        private DevExpress.XtraEditors.SimpleButton btnSave;
+        private DevExpress.XtraEditors.SimpleButton btnUpdate;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.SimpleButton btnLast;
         private DevExpress.XtraEditors.SimpleButton btnPrevious;
